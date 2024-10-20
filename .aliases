@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+alias ll='ls -la'
+
+
+# Easier navigation: .., ..., ....
+alias ..='cd ..'
+alias ....='cd ../..'
+
+# git alias
+alias g="git"
+alias gs='git status'
