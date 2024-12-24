@@ -30,6 +30,8 @@ set cursorline
 highlight CursorLine ctermbg=darkgrey guibg=#3c3c3c
 set cursorcolumn
 
+inoremap jj <esc>
+
 let mapleader=" " 
 
 nnoremap <leader>w :w<CR>
@@ -55,6 +57,8 @@ call plug#begin()
     Plug 'junegunn/fzf.vim'
     Plug 'morhetz/gruvbox'
 		Plug 'neoclide/coc.nvim', {'branch': 'release'}
+		Plug 'tpope/vim-surround'
+		Plug 'tpope/vim-commentary'
 call plug#end()
 
 
